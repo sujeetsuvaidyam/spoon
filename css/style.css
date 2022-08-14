@@ -61,7 +61,7 @@
 
 .checkbtn {
     display: none;
-    float: right;
+    float: left;
     font-size: 35px;
     color: white;
 }
@@ -500,13 +500,14 @@
         margin-top: 30px;
     }
 
-
+   .logo-img{
+    margin-left: 94%;
+   }
     .checkbtn {
         display: block;
         font-size: 35px;
-        margin-right: 20px;
+        margin-left: 20px;
         line-height: 70px;
-        margin-left: 1%;
     }
 
     .navbar {
@@ -638,11 +639,6 @@
         margin-top: 10%;
         margin-left: 2%;
     }
-
-    .footer {
-        height: 505px;
-    }
-
     .f1 {
         margin-left: 0%;
     }
