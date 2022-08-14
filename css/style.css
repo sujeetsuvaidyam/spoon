@@ -265,37 +265,40 @@
     margin-top: -5%;
 }
 
-.usd {
-    font-size: 70px;
-    font-weight: 900;
+.container3 {
+    padding: 0px 1px;
 }
 
-.u {
-    font-size: 14px;
-    color: rgb(162, 159, 156);
-}
-
-.container2 {
-    padding: 0px 100px;
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card1 {
-    width: 350px;
-    height: 760px;
-    margin: 10px;
-    border: 1px solid rgb(236, 232, 232);
+.card-100 {
+    width: 360px;
+    margin: 0px 10px;
     box-shadow: 3px 0px 11px 7px whitesmoke;
+}
+
+.card-100-body {
     padding: 40px;
 }
 
+.btn-100 {
+    width: 358px;
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    background-color: rgb(99, 185, 99);
+}
+
+.party-100 {
+    font-size: 60px;
+}
+
+.usd {
+    color: rgb(176, 164, 164);
+    font-size: 15px;
+}
+
+
 .paira-btns {
     width: 350px;
-    margin-top: 209px;
     padding: 20px;
     margin-left: -15%;
     font-size: 18px;
@@ -460,6 +463,31 @@
 .top-up {
     margin-top: -2.7%;
     margin-left: 15%;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: brown;
+}
+
+.copy {
+    /* text-align: center; */
+    line-height: 40px;
+    color: white;
+}
+
+.footer-f {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(99, 185, 99);
+    margin-top: 4%;
+}
+
+.spoon {
+    color: white;
+    line-height: 40px;
+    text-align: center;
 }
 
 @media (max-width:990px) {
@@ -686,13 +714,19 @@
     .d {
         display: block;
     }
-    .container3{
+
+    .container3 {
         padding: 0%;
     }
-    .card2{
+
+    .card2 {
         width: 342px;
     }
-    .n1{
+
+    .n1 {
         padding: 15px 40px;
+    }
+    .spoon{
+        margin-top: 35%;
     }
 }
